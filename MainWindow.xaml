@@ -1,0 +1,130 @@
+﻿<Window
+    x:Class="dvirtest.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:dvirtest"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="BackRound"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    Background="Wheat"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Label
+            x:Name="Tiltle"
+            Width="212"
+            Height="54"
+            Margin="0,44,264,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Content="בדיקת ספרת ביקורת"
+            FontFamily="Arial"
+            FontSize="24"
+            FontWeight="Bold" />
+        <TextBox
+            x:Name="D2"
+            Width="29"
+            Height="23"
+            Margin="440,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="D3"
+            Width="29"
+            Height="23"
+            Margin="474,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="D4"
+            Width="29"
+            Height="23"
+            Margin="508,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="D5"
+            Width="29"
+            Height="23"
+            Margin="542,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="D6"
+            Width="29"
+            Height="23"
+            Margin="576,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="D7"
+            Width="29"
+            Height="23"
+            Margin="610,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="D1"
+            Width="29"
+            Height="23"
+            Margin="406,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            RenderTransformOrigin="5.859,1.969"
+            Text=""
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="D8"
+            Width="29"
+            Height="23"
+            Margin="644,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <TextBox
+            x:Name="CheckD"
+            Width="29"
+            Height="23"
+            Margin="678,192,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Text=""
+            TextWrapping="Wrap" />
+        <Label
+            x:Name="Tiltle_Copy"
+            Width="262"
+            Height="42"
+            Margin="0,145,64,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Content="הכנס מספר תעודת זהות"
+            FontFamily="Arial"
+            FontSize="24"
+            FontWeight="Bold" />
+        <Button
+            Width="110"
+            Height="34"
+            Margin="110,295,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Click="Button_Click"
+            Content="בדוק" />
+
+    </Grid>
+</Window>
